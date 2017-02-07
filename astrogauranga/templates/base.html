@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>{% block title %}astrogauranga{% endblock title %}</title>
+    <title>{% block title %}Astrogauranga{% endblock title %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -15,8 +15,9 @@
 
     {% block css %}
     <!-- Latest compiled and minified Bootstrap 4 Alpha 4 CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
 
+   <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">-->
     <!-- Your stuff: Third-party CSS libraries go here -->
     
     <!-- This file stores project-specific CSS -->
@@ -29,9 +30,12 @@
   <body>
 
     <div class="m-b-1">
-      <nav class="navbar navbar-dark navbar-static-top bg-inverse">
+	  <!--<nav class="navbar navbar-dark navbar-fixed-top bg-inverse">-->
+	  <nav class="navbar navbar-dark navbar-fixed-top" role="navigation" style="background-color:#394eff;">
+	  <!--<nav class="navbar navbar-inverse navbar-fixed-top bg-primary">-->
+	  <!--<div class="navbar navbar-dark navbar-fixed-top" role="navigation" style="background-color:#339cff;">-->
         <div class="container">
-          <a class="navbar-brand" href="/">astrogauranga</a>
+          <a class="navbar-brand" href="/">Astrogauranga</a>
           <button type="button" class="navbar-toggler hidden-sm-up pull-xs-right" data-toggle="collapse" data-target="#bs-navbar-collapse-1">
             &#9776;
           </button>
@@ -43,16 +47,16 @@
                 <a class="nav-link" href="{% url 'home' %}">Home</a>
               </li>
               <li class="nav-item">
-				  <a class="nav-link" href="{% url 'chart' %}">Расчитать <br> гороскоп</a>
+				  <a class="nav-link" href="{% url 'chart' %}">Гороскоп</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{% url 'panch' %}">Календарь <br> Панчанги</a>
+                <a class="nav-link" href="{% url 'panch' %}">Календарь</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="{% url 'numero' %}">Нумерология</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{% url 'muhurta' %}">Благоприятное <br> время</a>
+                <a class="nav-link" href="{% url 'muhurta' %}">Мухурта</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="{% url 'forum' %}">Форум</a>
@@ -93,6 +97,51 @@
       {% endif %}
 
       {% block content %}
+	    <p>1</p>
+	    <p>2</p>
+        <p>3Use this document as a way to quick start any new project.</p>
+        <p>4Use this document as a way to quick start any new project.</p>
+        <p>5Use this document as a way to quick start any new project.</p>
+        <p>6Use this document as a way to quick start any new project.</p>
+        <p>Use this document as a way to quick start any new project.</p>
+        <p>Use this document as a way to quick start any new project.</p>
+        <p>Use this document as a way to quick start any new project.</p>
+        <p>Use this document as a way to quick start any new project.</p>
+        <p>Use this document as a way to quick start any new project.</p>
+        <p>Use this document as a way to quick start any new project.</p>
+        <p>Use this document as a way to quick start any new project.</p>
+        <p>Use this document as a way to quick start any new project.</p>
+        <p>Use this document as a way to quick start any new project.</p>
+        <p>Use this document as a way to quick start any new project.</p>
+        <p>Use this document as a way to quick start any new project.</p>
+        <p>Use this document as a way to quick start any new project.</p>
+        <p>Use this document as a way to quick start any new project.</p>
+        <p>Use this document as a way to quick start any new project.</p>
+        <p>Use this document as a way to quick start any new project.</p>
+        <p>Use this document as a way to quick start any new project.</p>
+        <p>Use this document as a way to quick start any new project.</p>
+        <p>Use this document as a way to quick start any new project.</p>
+        <p>Use this document as a way to quick start any new project.</p>
+        <p>Use this document as a way to quick start any new project.</p>
+        <p>Use this document as a way to quick start any new project.</p>
+        <p>Use this document as a way to quick start any new project.</p>
+        <p>Use this document as a way to quick start any new project.</p>
+        <p>Use this document as a way to quick start any new project.</p>
+        <p>Use this document as a way to quick start any new project.</p>
+        <p>Use this document as a way to quick start any new project.</p>
+        <p>Use this document as a way to quick start any new project.</p>
+        <p>Use this document as a way to quick start any new project.</p>
+        <p>Use this document as a way to quick start any new project.</p>
+        <p>Use this document as a way to quick start any new project.</p>
+        <p>Use this document as a way to quick start any new project.</p>
+        <p>Use this document as a way to quick start any new project.</p>
+        <p>Use this document as a way to quick start any new project.</p>
+        <p>Use this document as a way to quick start any new project.</p>
+        <p>Use this document as a way to quick start any new project.</p>
+        <p>Use this document as a way to quick start any new project.</p>
+        <p>Use this document as a way to quick start any new project.</p>
+        <p>Use this document as a way to quick start any new project.</p>
+        <p>Use this document as a way to quick start any new project.</p>
         <p>Use this document as a way to quick start any new project.</p>
       {% endblock content %}
 
